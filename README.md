@@ -1,8 +1,9 @@
 # Binding Of Isaac Afterlife Map Test
 
-Test for Binding Of Isaac Afterlife mod
+Test for Binding Of Isaac Afterlife mod written in python 3.
 
 # Usage : 
+Clone repoistory, navigate to directory and use the following command.
 ```sh
 $ python map_generator.py
 ```
