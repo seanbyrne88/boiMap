@@ -28,9 +28,12 @@ class IsaacMap(object):
 
         return tile_map
 
-    def display(self):
+    def __repr__(self):
+        ret_value = ""
         for i in self.tile_map:
-            print(i)
+            ret_value += str(i)+"\n"
+
+        return ret_value
 
 
 if __name__ == "__main__":
@@ -41,4 +44,4 @@ if __name__ == "__main__":
 
     test_map = IsaacMap(w, h, my_chars)
 
-    test_map.display()
+    print(test_map)
